@@ -35,6 +35,9 @@ body {
 .logo-header-blue {
   color: var(--color-main-text);
 }
+.site-nav-address {
+  font-style: normal;
+}
 .site-nav {
   font-weight: 500;
   font-size: 16px;
