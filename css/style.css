@@ -106,3 +106,63 @@ body {
 .logo-footer-white {
   color: #f4f4fd;
 }
+
+.hero {
+  color: #ffffff;
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+.section-banner-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.btn-banner {
+  font-family: 'Roboto', sans-serif;
+  padding: 16px 32px;
+  background: var(--accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  border: none;
+  line-height: 1.5;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero .btn-banner:hover,
+.hero .btn-banner:focus {
+  background-color: var(--accent-pressed-state);
+}
+.features-list {
+  text-align: left;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
+}
+.work-list {
+  list-style: none;
+  text-align: center;
+}
+.section-list {
+  text-align: center;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-main-text);
+}
+.section-team-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
