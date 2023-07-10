@@ -101,9 +101,11 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .logo-footer-white {
-  color: #f4f4fd;
+  color: var(--color-bg-team);
 }
-
+.text-footer {
+  color: var(--color-bg-team);
+}
 .hero {
   color: #ffffff;
   background-color: var(--secondary-bg-color);
