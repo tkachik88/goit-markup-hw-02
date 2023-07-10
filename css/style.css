@@ -13,7 +13,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-bg-color);
+  color: var(--color-secondary-text);
+  background-color: var(--primary-bg-color);
 }
 .list {
   list-style: none;
@@ -104,9 +105,6 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .logo-footer-white {
-  color: #f4f4fd;
-}
-.text-footer {
   color: #f4f4fd;
 }
 
