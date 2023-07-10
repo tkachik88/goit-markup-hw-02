@@ -140,12 +140,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-main-text);
 }
-.work-list {
+.works-list {
   list-style: none;
   text-align: center;
 }
 .section-list {
   text-align: center;
+}
+.section-team {
+  background-color: var(--color-bg-team);
 }
 .section-title {
   font-weight: 700;
@@ -155,6 +158,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-main-text);
+}
+.section-img {
+  background-color: var(--primary-bg-color);
 }
 .section-team-text {
   font-size: 16px;
